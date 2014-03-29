@@ -1,0 +1,318 @@
+(pcb "C:\Users\esalazar\git\thermocouple-breakout\thermocouple-breakout.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2014-03-07 BZR 4737)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  38800 -37200  38800 -87400  38851.7 -87990.4  39005 -88562.9
+            39255.5 -89100  39595.4 -89585.5  40014.5 -90004.6  40500 -90344.5
+            41037.1 -90595  41609.6 -90748.3  42200 -90800  72000 -90800
+            72593.4 -90783.1  73174.9 -90663.4  73726.8 -90444.5  74232.3 -90133.1
+            74676 -89738.7  75044.5 -89273.2  75326.6 -88750.8  75513.6 -88187.4
+            75600 -87600  75600 -37400  75548.3 -36809.6  75395 -36237.1
+            75144.5 -35700  74804.6 -35214.5  74385.5 -34795.4  73900 -34455.5
+            73362.9 -34205  72790.4 -34051.7  72200 -34000  42400 -34000
+            41806.6 -34016.9  41225.1 -34136.6  40673.2 -34355.5  40167.7 -34666.9
+            39724 -35061.3  39355.5 -35526.8  39073.4 -36049.2  38886.4 -36612.6
+            38800 -37200)
+    )
+    (via "Via[0-1]_889:635_um")
+    (rule
+      (width 508)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component visgence_parts:SM0603_Capa_VIS
+      (place C1 48800 -47200 front 180 (PN C))
+    )
+    (component "LEDs:LED-0603"
+      (place D1 71400 -49600 front 270 (PN ALARM))
+      (place D2 44200 -49600 front 270 (PN PWR))
+    )
+    (component Connect:bornier4
+      (place P1 57200 -37650 front 180 (PN CONN_4))
+    )
+    (component visgence_parts:SM0603_VIS
+      (place R1 48800 -51000 front 270 (PN R))
+      (place R2 71400 -45800 front 270 (PN 1k))
+      (place R3 44200 -45800 front 270 (PN 1k))
+    )
+    (component "Sockets_DIP:DIP-14__300_ELL"
+      (place U1 57200 -61650 front 0 (PN AD594/95))
+    )
+    (component SMD_Packages:SO14N
+      (place U2 57200 -50150 front 0 (PN 74HCT04))
+    )
+    (component "visgence_parts:PCC-SMP"
+      (place P2 57200 -78400 front 180 (PN CONN_2))
+    )
+    (component visgence_parts:1pin_C
+      (place h2 72200 -37400 front 0 (PN pin))
+      (place h1 42200 -37400 front 0 (PN pin))
+      (place h4 72200 -87400 front 0 (PN pin))
+      (place h3 42200 -87400 front 0 (PN pin))
+    )
+  )
+  (library
+    (image visgence_parts:SM0603_Capa_VIS
+      (outline (path signal 119.38  500.38 -650.24  1198.88 -650.24))
+      (outline (path signal 119.38  -500.38 -650.24  -1198.88 -650.24))
+      (outline (path signal 119.38  500.38 650.24  1198.88 650.24))
+      (outline (path signal 119.38  -1198.88 650.24  -500.38 650.24))
+      (outline (path signal 119.38  1198.88 635  1198.88 -635))
+      (outline (path signal 119.38  -1198.88 -635  -1198.88 635))
+      (pin Rect[T]Pad_635x1143_um 1 -762 0)
+      (pin Rect[T]Pad_635x1143_um 2 762 0)
+    )
+    (image "LEDs:LED-0603"
+      (outline (path signal 66.04  449.58 449.58  449.58 -449.58))
+      (outline (path signal 66.04  449.58 -449.58  848.36 -449.58))
+      (outline (path signal 66.04  848.36 449.58  848.36 -449.58))
+      (outline (path signal 66.04  449.58 449.58  848.36 449.58))
+      (outline (path signal 66.04  -848.36 449.58  -848.36 -449.58))
+      (outline (path signal 66.04  -848.36 -449.58  -449.58 -449.58))
+      (outline (path signal 66.04  -449.58 449.58  -449.58 -449.58))
+      (outline (path signal 66.04  -848.36 449.58  -449.58 449.58))
+      (outline (path signal 66.04  0 449.58  0 299.72))
+      (outline (path signal 66.04  0 299.72  299.72 299.72))
+      (outline (path signal 66.04  299.72 449.58  299.72 299.72))
+      (outline (path signal 66.04  0 449.58  299.72 449.58))
+      (outline (path signal 66.04  0 -299.72  0 -449.58))
+      (outline (path signal 66.04  0 -449.58  299.72 -449.58))
+      (outline (path signal 66.04  299.72 -299.72  299.72 -449.58))
+      (outline (path signal 66.04  0 -299.72  299.72 -299.72))
+      (outline (path signal 66.04  0 149.86  0 -149.86))
+      (outline (path signal 66.04  0 -149.86  299.72 -149.86))
+      (outline (path signal 66.04  299.72 149.86  299.72 -149.86))
+      (outline (path signal 66.04  0 149.86  299.72 149.86))
+      (outline (path signal 101.6  449.58 398.78  -449.58 398.78))
+      (outline (path signal 101.6  449.58 -398.78  -449.58 -398.78))
+      (pin Rect[T]Pad_797.56x797.56_um 1 -749.3 0)
+      (pin Rect[T]Pad_797.56x797.56_um 2 749.3 0)
+    )
+    (image Connect:bornier4
+      (outline (path signal 304.8  -10160 3810  -10160 -3810))
+      (outline (path signal 304.8  10160 -3810  10160 3810))
+      (outline (path signal 304.8  10160 -2540  -10160 -2540))
+      (outline (path signal 304.8  -10160 3810  10160 3810))
+      (outline (path signal 304.8  -10160 -3810  10160 -3810))
+      (pin Round[A]Pad_3810_um 2 -2540 0)
+      (pin Round[A]Pad_3810_um 3 2540 0)
+      (pin Rect[A]Pad_3810x3810_um 1 -7620 0)
+      (pin Round[A]Pad_3810_um 4 7620 0)
+    )
+    (image visgence_parts:SM0603_VIS
+      (outline (path signal 127  -1143 635  1143 635))
+      (outline (path signal 127  1143 635  1143 -635))
+      (outline (path signal 127  1143 -635  -1143 -635))
+      (outline (path signal 127  -1143 -635  -1143 635))
+      (pin Rect[T]Pad_635x1143_um 1 -762 0)
+      (pin Rect[T]Pad_635x1143_um 2 762 0)
+    )
+    (image "Sockets_DIP:DIP-14__300_ELL"
+      (outline (path signal 381  -10160 2540  10160 2540))
+      (outline (path signal 381  10160 -2540  -10160 -2540))
+      (outline (path signal 381  -10160 -2540  -10160 2540))
+      (outline (path signal 381  -10160 1270  -8890 1270))
+      (outline (path signal 381  -8890 1270  -8890 -1270))
+      (outline (path signal 381  -8890 -1270  -10160 -1270))
+      (outline (path signal 381  10160 2540  10160 -2540))
+      (pin Rect[A]Pad_1574.8x2286_um 1 -7620 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 2 -5080 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 3 -2540 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 4 0 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 5 2540 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 6 5080 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 7 7620 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 8 7620 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 9 5080 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 10 2540 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 11 0 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 12 -2540 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 13 -5080 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 14 -7620 3810)
+    )
+    (image SMD_Packages:SO14N
+      (outline (path signal 203.2  5080 2286  5080 -2540))
+      (outline (path signal 203.2  5080 -2540  -5080 -2540))
+      (outline (path signal 203.2  -5080 -2540  -5080 2286))
+      (outline (path signal 203.2  -5080 2286  5080 2286))
+      (outline (path signal 203.2  -5080 508  -4445 508))
+      (outline (path signal 203.2  -4445 508  -4445 -762))
+      (outline (path signal 203.2  -4445 -762  -5080 -762))
+      (pin Rect[T]Pad_508x1143_um 1 -3810 -3302)
+      (pin Rect[T]Pad_508x1143_um 2 -2540 -3302)
+      (pin Rect[T]Pad_508x1143_um 3 -1270 -3302)
+      (pin Rect[T]Pad_508x1143_um 4 0 -3302)
+      (pin Rect[T]Pad_508x1143_um 5 1270 -3302)
+      (pin Rect[T]Pad_508x1143_um 6 2540 -3302)
+      (pin Rect[T]Pad_508x1143_um 7 3810 -3302)
+      (pin Rect[T]Pad_508x1143_um 8 3810 3048)
+      (pin Rect[T]Pad_508x1143_um 9 2540 3048)
+      (pin Rect[T]Pad_508x1143_um 11 0 3048)
+      (pin Rect[T]Pad_508x1143_um 12 -1270 3048)
+      (pin Rect[T]Pad_508x1143_um 13 -2540 3048)
+      (pin Rect[T]Pad_508x1143_um 14 -3810 3048)
+      (pin Rect[T]Pad_508x1143_um 10 1270 3048)
+    )
+    (image "visgence_parts:PCC-SMP"
+      (outline (path signal 150  600 12350  600 11350))
+      (outline (path signal 150  600 11350  -600 11350))
+      (outline (path signal 150  -600 11350  -600 12350))
+      (outline (path signal 150  -7750 -3650  -4750 -3650))
+      (outline (path signal 150  -4750 -3650  -4750 -8400))
+      (outline (path signal 150  -4750 -8400  4750 -8400))
+      (outline (path signal 150  4750 -8400  4750 -8050))
+      (outline (path signal 150  7750 -3700  4750 -3700))
+      (outline (path signal 150  4750 -3700  4750 -8250))
+      (outline (path signal 150  -7750 5450  -7750 -3650))
+      (outline (path signal 150  7750 5400  7750 -3650))
+      (outline (path signal 150  7750 12350  7750 8150))
+      (outline (path signal 150  0 12350  -7750 12350))
+      (outline (path signal 150  -7750 12350  -7750 8100))
+      (outline (path signal 150  0 12350  7750 12350))
+      (outline (path signal 150  -6800 5950  6850 5950))
+      (outline (path signal 150  -6850 7550  6850 7550))
+      (pin Round[A]Pad_2500_um 2 6800 -6750)
+      (pin Round[A]Pad_2500_um 1 -6900 -6750)
+      (pin Round[A]Pad_2500_um @1 7900 6750)
+      (pin Round[A]Pad_2500_um @2 -7800 6750)
+    )
+    (image visgence_parts:1pin_C
+      (outline (path signal 381  3183.22 0  3027.42 -983.669  2575.28 -1871.05  1871.05 -2575.28
+            983.669 -3027.42  0 -3183.22  -983.669 -3027.42  -1871.05 -2575.28
+            -2575.28 -1871.05  -3027.42 -983.669  -3183.22 0  -3027.42 983.669
+            -2575.28 1871.05  -1871.05 2575.28  -983.669 3027.42  0 3183.22
+            983.669 3027.42  1871.05 2575.28  2575.28 1871.05  3027.42 983.669))
+      (pin Round[A]Pad_6000_um 1 0 0)
+    )
+    (padstack Round[A]Pad_2500_um
+      (shape (circle F.Cu 2500))
+      (shape (circle B.Cu 2500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3810_um
+      (shape (circle F.Cu 3810))
+      (shape (circle B.Cu 3810))
+      (attach off)
+    )
+    (padstack Round[A]Pad_6000_um
+      (shape (circle F.Cu 6000))
+      (shape (circle B.Cu 6000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1574.8x2286_um
+      (shape (path F.Cu 1574.8  0 -355.6  0 355.6))
+      (shape (path B.Cu 1574.8  0 -355.6  0 355.6))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3810x3810_um
+      (shape (rect F.Cu -1905 -1905 1905 1905))
+      (shape (rect B.Cu -1905 -1905 1905 1905))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_508x1143_um
+      (shape (rect F.Cu -254 -571.5 254 571.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_635x1143_um
+      (shape (rect F.Cu -317.5 -571.5 317.5 571.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_797.56x797.56_um
+      (shape (rect F.Cu -398.78 -398.78 398.78 398.78))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1574.8x2286_um
+      (shape (rect F.Cu -787.4 -1143 787.4 1143))
+      (shape (rect B.Cu -787.4 -1143 787.4 1143))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net ALARM
+      (pins P1-2 U2-6)
+    )
+    (net GND
+      (pins C1-2 D1-2 D2-2 P1-4 U1-1 U1-4 U1-7 U1-13 U2-7 P2-1)
+    )
+    (net "Net-(D1-Pad1)"
+      (pins D1-1 R2-2)
+    )
+    (net "Net-(D2-Pad1)"
+      (pins D2-1 R3-2)
+    )
+    (net "Net-(P2-Pad2)"
+      (pins U1-14 P2-2)
+    )
+    (net "Net-(R1-Pad2)"
+      (pins R1-2 U1-12 U2-1)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 U2-2 U2-3)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U1-10)
+    )
+    (net "Net-(U1-Pad2)"
+      (pins U1-2)
+    )
+    (net "Net-(U1-Pad3)"
+      (pins U1-3)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
+    (net "Net-(U1-Pad6)"
+      (pins U1-6)
+    )
+    (net "Net-(U2-Pad4)"
+      (pins U2-4 U2-5)
+    )
+    (net TEMP
+      (pins P1-1 U1-8 U1-9)
+    )
+    (net VCC
+      (pins C1-1 P1-3 R1-1 R3-1 U1-11 U2-14)
+    )
+    (class kicad_default "" ALARM GND "Net-(D1-Pad1)" "Net-(D2-Pad1)" "Net-(P2-Pad2)"
+      "Net-(R1-Pad2)" "Net-(R2-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad2)" "Net-(U1-Pad3)"
+      "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U2-Pad4)" TEMP VCC
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 508)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 508  64820 -57840  64820 -37650)(net TEMP)(type protect))
+  )
+)

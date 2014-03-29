@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-07 BZR 4737)-product date = 3/11/2014 10:22:41 PM
+
+BeginCmp
+TimeStamp = /531D4C2E;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = visgence_parts:SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D473C;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D4B9D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D42CC;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = Connect:bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D42A1;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = visgence_parts:PCC-SMP;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D4721;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D49AE;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D4BA8;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = visgence_parts:SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D4147;
+Reference = U1;
+ValeurCmp = AD594/95;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /531D4921;
+Reference = U2;
+ValeurCmp = 74HCT04;
+IdModule  = SMD_Packages:SO14N;
+EndCmp
+
+EndListe
