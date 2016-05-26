@@ -193,7 +193,7 @@
       (net 2 GND))
     (model ../../../../../../Users/cyrille/git/thermocouple-breakout/hardware/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
     )
   )
@@ -238,7 +238,7 @@
       (net 2 GND))
     (model ../../../../../../Users/cyrille/git/thermocouple-breakout/hardware/KiModels/LED-0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.6 0.6 0.6))
       (rotate (xyz 0 0 0))
     )
   )
@@ -496,7 +496,7 @@
     (model ../../../../../../Users/cyrille/git/thermocouple-breakout/hardware/KiModels/ThermoCouple.wrl
       (at (xyz 0 0.14 0.15))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 

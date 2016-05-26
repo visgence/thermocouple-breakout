@@ -267,7 +267,7 @@
       (net 14 TEMP))
     (pad 4 thru_hole circle (at 7.62 0 180) (size 3.81 3.81) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model Device/bornier_4.wrl
+    (model ../../../../../../Users/cyrille/git/thermocouple-breakout/hardware/KiModels/OSTTCXX2162.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -494,7 +494,7 @@
     (pad "" thru_hole circle (at 7.9 -6.75 180) (size 2.5 2.5) (drill 1.8) (layers *.Cu *.Mask F.SilkS))
     (pad "" thru_hole circle (at -7.8 -6.75 180) (size 2.5 2.5) (drill 1.8) (layers *.Cu *.Mask F.SilkS))
     (model ../../../../../../Users/cyrille/git/thermocouple-breakout/hardware/KiModels/ThermoCouple.wrl
-      (at (xyz 0 0.14 0.15))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
